@@ -1,0 +1,13 @@
+console.log("   Hey you are doing good,keep it up   ");
+var firstName = "   Hey you are doing good,keep it up   ";
+var nameLength = firstName.length;
+console.log("Total character length :", nameLength);
+var handsOn = " Hey you are doing good,keep it up";
+var trimHandsOn = handsOn.trim();
+lengthAfterTrim = trimHandsOn.length;
+console.log("Length after removeing leading and trailing Space: ", trimHandsOn.length);
+console.log(" ");
+var handsOn = "   Hey you are doing good,keep it up   ";
+var removespaceHandsOn = handsOn.removespace;
+lengthAfterremovespace = removespaceHandsOn.length;
+console.log("The total nummber of extra Space count is: ", removespaceHandsOn.length);
